@@ -1,0 +1,164 @@
+
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5ff; /* Color de fondo más suave */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00796b; /* Color de hover más moderno */
+}
+
+/* Sección principal */
+section {
+    padding: 20px 30px;
+}
+
+.marcas {
+    text-align: center;
+    color: #00796b; /* Color moderno para marcas */
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#nosotros {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.titulo1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #00796b; /* Color moderno para títulos */
+}
+
+.titulo2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #00796b; /* Color moderno para títulos */
+}
+
+.titulo3 {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+footer .footer-links h4 {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-links ul li {
+    margin-bottom: 8px;
+}
+
+footer .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+footer .footer-links ul li a:hover {
+    color: #f39c12; /* Color de hover más vibrante */
+}
+
+footer .social-link {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-link .social-icon {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+footer .social-link .social-icon:hover {
+    color: #f39c12; /* Color de hover más vibrante */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
